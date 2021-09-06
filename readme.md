@@ -1,0 +1,22 @@
+## 机器学习
+
+<p style="color:blue;">
+    作者: 庄泽琰 <br> 
+    邮箱: 1811253@mail.nankai.edu.cn
+</p>
+
+***
+#### 参考资料
+《统计学习方法》 李航
+
+#### 环境
+<i>语言: </i>
+* Ipython
+
+<i> 开发工具：</i>
+* Notebook
+
+<i> 主要使用的 python 库: </i>
+* numpy
+* pandas
+* sklearn
