@@ -15,18 +15,23 @@ import math
 
 
 class PriorityQueue:
-    def __init__(self, data=None):
+    def __init__(self, data=None, is_ascend=True):
         # data: list
         self.data = data
         self.size = 0
         # 存储数据的列表
         self.array = [None]
+        # 是不是小根堆
+        self.is_ascend = is_ascend
         self.create_heap()
     
-    def f(self, x):
+    def f(self, item):
         """对比值"""
-        return x.value
-    
+        if self.is_ascend:
+            return item.value()
+        else:
+            return -item.value()
+
     def create_heap(self):
         """创建队列"""
         if self.data is None or len(self.data) == 0:
