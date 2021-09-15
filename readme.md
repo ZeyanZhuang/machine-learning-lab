@@ -20,3 +20,7 @@
 * numpy
 * pandas
 * sklearn
+* matplotlib
+
+#### 说明
+现在的 data_structure 里存了数据结构，但是在文件夹中的 Notebook 没法导入， 要在同一个目录下，目前没有解决方案…
